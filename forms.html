@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms Authentication</h1>
+    <form action="main.java" method="post">
+      <label for="name">Name:</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Enter name"
+      /><br /><br />
+      <label for="em">Email:</label>
+      <input
+        id="em"
+        type="email"
+        name="email"
+        placeholder="enter email"
+      /><br /><br />
+
+      <label for="pass">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="pass"
+        placeholder="Enter password"
+      /><br /><br />
+
+      <label for="phone">PhoneNumber:</label>
+      <input
+        type="number"
+        name="PhoneNumber"
+        id="phone"
+        placeholder="Enter mobile number"
+      />
+      <br /><br />
+
+      <label for="date">Date of Birth:</label>
+      <input
+        type="date"
+        name="date"
+        id="date"
+        placeholder="Select date"
+      /><br /><br />
+
+      <label for="file">Signature</label>
+      <input type="file" name="file" id="file"><br><br>
+
+      <input type="color" name="color" id="color">
+      <input type="time" name="time" id="time">
+      <input type="datetime-local" name="datetimed" id="datetimed">
+      <input type="url" name="url" id="url">
+      <input type="range" name="range" id="range">
+      <input type="hidden" name="hdnValu">
+
+      Enter Gender:
+      <input type="radio" name="Gender" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="female">
+      <label for="female">FeMale</label>
+
+
+      <button type="submit">Submitt</button>
+      <input type="submit" value="Inside" />
+      <input type="reset" value="Reset" />
+
+
+    </form>
+  </body>
+</html>
